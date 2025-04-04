@@ -1,0 +1,45 @@
+# ProductApp - iOS SwiftUI Application
+
+## Overview
+ProductApp is a simple iOS application built using Swift and SwiftUI. The app displays a list of products (title and image) and allows users to view detailed information on a separate screen. The product data is fetched from a local JSON file.
+
+## Features
+- Displays a list of products with images.
+- Uses SwiftUI and MVVM architecture.
+- Allows users to navigate to a detailed view for each product.
+- Fetches data from a JSON file stored in the app bundle.
+
+## Project Structure
+- **ProductApp** (Main project directory)
+  - **Product.swift**: Defines the Product model.
+  - **ProductViewModel.swift**: Handles fetching and decoding product data.
+  - **ContentView.swift**: Displays the list of products and navigates to details.
+  - **ProductDetailView.swift**: Shows details of a selected product.
+  - **products.json**: Contains product data in JSON format.
+
+## Installation & Running the App
+1. Open **Xcode** on macOS.
+2. Click **File > Open** and select the `ProductApp.xcodeproj` file.
+3. Select an **iPhone Simulator** (e.g., iPhone 14) from the top menu.
+4. Click the **Run ▶ button** in Xcode.
+5. The app will launch in the simulator, displaying the product list.
+6. Tap a product to view its details.
+
+## Requirements
+- macOS with Xcode installed.
+- Swift 5 and SwiftUI framework.
+- iOS 15.0 or later (for best compatibility).
+
+## Notes
+- Ensure the `products.json` file is included in the Xcode project bundle.
+- The app uses `AsyncImage` for loading images from URLs.
+- The project follows the MVVM (Model-View-ViewModel) design pattern for better separation of concerns.
+
+## Submission Instructions
+- Zip the `ProductApp` project folder.
+- Include this `README.md` file in the zipped folder.
+- Submit the `.zip` file as per the assignment requirements.
+
+---
+**Created by: [Your Name]**
+
